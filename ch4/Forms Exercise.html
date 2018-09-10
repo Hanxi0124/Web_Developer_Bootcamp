@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms Exercise</title>
+</head>
+<body>
+	<h1>Register</h1>
+<form>	
+	<form>
+		
+		<label for="fisrt">Fisrt Name:</label>
+		<input name="fisrt" id="fisrt" type="text" placeholder="John" required>
+		<label for="last">Last Name:</label>
+		<input name="last" id="Last" type="text" placeholder="Smith" required>		
+	<div>	
+		<label for="Male">Male:</label>
+		<input name="gender" id="Male" type="radio" value="Male">
+    
+		<label for="Female">Female:</label>
+		<input name="gender" id="Female" type="radio" value="Female" >
+		
+		<label for="Other">Other:</label>
+		<input name="gender" id="Other" type="radio" value="Other">
+	</div>
+
+
+	<div>	
+<!-- 	another method for label
+     	<label>
+			Email:
+			<input type="Email" name="Email" placeholder=" your email">
+		</label> -->
+		<label for="Email">Email:</label>
+		<input name="Email" id="Email" type="Email" placeholder="your email" required>
+		
+		<label for="Password">Password:</label>
+		<input name="Password" id="Password" type="Password" pattern=".{5,10}" required title="5 to 10 character" required>
+		<!--  maxlength="10" minlength="5" -->
+
+	</div>
+
+	<div>
+		<label>
+			Birthday:
+			<select name="Month"> 
+				<option >Month</option> 
+				<option >January</option> 
+				<option >Feburay</option> 
+				<option >March</option> 
+			</select>
+
+			<select name="Year"> 
+				<option >Year</option> 
+				<option >1996</option> 
+				<option >1997</option> 
+				<option >1998</option> 
+			</select>
+
+			<select name="Day"> 
+				<option >Day</option> 
+				<option >1</option> 
+				<option >2</option> 
+				<option >3</option> 
+			</select>
+		</label>
+	</div>
+
+	<div>
+		<!-- give checkbox a label so that they can stay in the same row -->
+		<label>
+			I agree to the terms and conditions
+			<input type="checkbox">
+		</label>
+		
+	</div>
+	
+	<div>
+		<button>submit</button>
+	</div>
+
+</form>	
+
+</body>
+</html>
