@@ -1,0 +1,31 @@
+h1 {
+	color:red;
+/*	border-color:purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 5px solid purple;
+}
+
+li {
+	color:green;
+}
+
+h4 {
+	color:yellow;
+}
+
+h4 {
+	background: rgba(0,200,150,0.2);
+}
+/*
+width
+color
+style
+*/
+body{
+	background: pink
+	/*url(https://www.dhresource.com/webp/m/0x0s/f2-albu-g6-M01-6F-41-rBVaSFsR6C6Acei_AAbrTrUc54g146.jpg/4-pcs-ins-style-black-white-color-photo-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover*/;
+}
